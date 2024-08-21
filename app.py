@@ -9,5 +9,3 @@ st.write("롸이트")
 isClicked = st.button("버튼")
 if isClicked :
   st.write("클릭함")
-else :
-  st.write(" ")
