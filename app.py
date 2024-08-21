@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.header("ㅎㅇ")
-st.header("반갑다")
-st.write("제작중")
+st.title("타이틀")
+st.header("헤더")
+st.write("롸이트")
