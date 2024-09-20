@@ -1,5 +1,7 @@
 import streamlit as st
 
+def playGame(guess):
+
 st.title("동전 던지기 게임")
 st.divider()
 
@@ -10,8 +12,10 @@ st.header('동전 던지게 게임에 오신 것을 환영합니다.')
 st.subheader('앞면일까요? 뒷면일까요?')
 
 if st.button('앞면'):
-  st.text('앞면일 것 같음')
+  playGame(0)
 
 
 if st.button('뒷면'):
-  st.text('뒷면일 것 같음')
+  playGame(1)
+
+
